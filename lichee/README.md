@@ -197,5 +197,7 @@ bitbake console-image
 bitbake qt5-image
 bitbake meta-toolchain-qt5
 
+sudo mkfs.ext4 /dev/sde
+
 sudo dd if=qt5-image-licheepinano-sdcard.sunxi-sdimg of=/dev/sde bs=1024 status=progress
 ```
